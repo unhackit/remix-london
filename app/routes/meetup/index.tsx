@@ -15,7 +15,6 @@ export let action: ActionFunction = async ({ request }) => {};
 
 const Meetup = () => {
     const { quotes } = useLoaderData();
-    console.log("client", quotes);
 
     return (
         <div className="bg-blackbg min-h-screen w-screen">
