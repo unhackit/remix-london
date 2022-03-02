@@ -44,6 +44,7 @@ const Register = () => {
                 <div className="h-full w-full flex items-center justify-center">
                     <div className="bg-white w-11/12 md:w-2/4 lg:w-1/3 min-h-3/5 p-8 short:h-3/4 rounded-lg shadow-lg border-2 border-solid border-gray-100 flex items-center justify-center">
                         <Form
+                            reloadDocument
                             method="post"
                             className="w-full"
                             autoComplete="off"

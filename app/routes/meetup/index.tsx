@@ -7,7 +7,6 @@ import RemixLogo from "../../assets/images/remix.jpg";
 export let loader: LoaderFunction = async ({ request }) => {
     await requireUserId(request);
     const { quotes } = await getQuote();
-    console.log(quotes);
     return json({ quotes });
 };
 
